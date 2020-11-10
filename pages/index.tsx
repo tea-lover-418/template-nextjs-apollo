@@ -1,12 +1,7 @@
 import React from 'react';
 
-import { OverviewScreen } from '../screens';
-import { BaseLayout } from '../shared/base';
-
-const OverviewPage = (): JSX.Element => {
-    return (
-        <BaseLayout> <OverviewScreen/></BaseLayout>
-    );
-}
+const OverviewPage = (): JSX.Element => (
+  <h1> app </h1>
+);
 
 export default OverviewPage;
